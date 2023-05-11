@@ -1,7 +1,6 @@
 .container {
-width: 500px;
-height: 281px;
+max-width: 100%;
+height: 100%;
 margin: auto;
-border: 20px solid #fffb00;
-padding: 0px;
+padding: 5px;
 }
