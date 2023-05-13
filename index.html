@@ -2,6 +2,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+   
 <title>CATS2.ART</title>
     <link href="styles.css" rel="stylesheet">
  <link rel="icon" type="image/x-icon" href="./favicon.gif">
@@ -17,15 +18,23 @@
         height: auto;
         width: 500px
     }
+    @media (min-width: 600px) {
+        iframe {
+          width: 500px;
+          height: 281px; /* maintain aspect ratio */
+        }
+      }
+      
 </style>
 </head>
     
 <body>
     <div class="img"><img src="CurtainCall.gif" alt="An illustration of the four Chorus Cats of CATS 2 in front of a theater curtain, a full moon behind them on stage.">   
     </div>
-<div class="iframe-container">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/tGkDTdTx-xM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</div>
+    <div style="text-align: center;">
+        <iframe width="100%" height="315" src="https://www.youtube.com/embed/YOUR_VIDEO_ID" frameborder="0" allowfullscreen></iframe>
+      </div>
+      
 <p>Thank you for visiting Cats 2 Online. </p>
 
 </body>    
